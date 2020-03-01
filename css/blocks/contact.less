@@ -1,0 +1,56 @@
+//main:../style.less
+  .contact {
+   display: flex;
+   background:  url("../img/email.jpg") right center
+   no-repeat;
+   background-size: 560px 480px;
+   @media @tablet {
+    background-size: 360px 360px;
+   }
+   @media @mobile {
+    background: none;
+  }
+    &__left {
+      width: 47%;
+      padding: 2rem;
+      @media @mobile {
+        width: 100%;
+      }
+      .modal__title {
+        margin-bottom: 0;
+        @media @mobile {
+          font-size: 2rem;
+        }
+      }
+    }
+    .modal__suptitle{
+      text-transform: uppercase;
+      font-size: 1.06rem;
+      color: @black;
+      font-weight: normal;
+    }
+    .contact__info {
+      margin: 2rem 0 3rem;
+      padding: 0;
+      list-style: none;
+      font-size: 0.94rem;
+      color: @black;
+      font-weight: 300;
+      @media @mobile {
+        margin: 0;
+        font-size: 0.74rem;
+      }
+    }
+
+    .contact__info-item{
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+       &:last-child{
+         margin-bottom: 0;
+       }
+    }
+    .contact__info-icon{
+      margin-right: 1rem;
+    }
+}

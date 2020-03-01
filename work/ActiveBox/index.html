@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ActiveBox</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,800&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+      <meta name="description" content="My company">
+
+   </head>
+   <body>
+
+<!-- Sprite -->
+    <svg style="display: none;">
+       <symbol id="facebook" viewBox="0 0 430.113 430.114" >
+          <g>
+             <path id="Facebook" d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
+            c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354
+            c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"/>
+         </g>
+       </symbol>
+       <symbol id="twitter" viewBox="0 0 512 512" >
+            <g>
+                  <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                     c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                     c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                     c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                     c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                     c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                     C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                     C480.224,136.96,497.728,118.496,512,97.248z"/>
+               </g>
+         </symbol>
+         <symbol id="linkedin" viewBox="0 0 430.117 430.117" >
+               <g>
+                     <path id="LinkedIn" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707
+                        c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21
+                        v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824
+                        C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463
+                        c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z
+                         M5.477,420.56h92.184v-277.32H5.477V420.56z"/>
+                  </g>
+            </symbol>
+    </svg>
+
+<!-- Header -->
+      <header class="header" id="header">
+         <div class="container">
+            <div class="header__inner">
+               <a href="#">
+                  <div class="header__logo">
+                     <img src="img/YourSite.png" alt="">
+                  </div>
+               </a>
+               <nav class="nav" id="nav">
+                  <a href="#" class="nav__link" data-scroll="#feature">ФУНКЦИИ</a>
+                  <a href="#" class="nav__link" data-scroll="#works">РАБОТЫ</a>
+                  <a href="#" class="nav__link" data-scroll="#team">НАША КОМАНДА</a>
+                  <a href="#" class="nav__link" data-scroll="#reviews">ОТЗЫВЫ</a>
+                  <a href="#" class="nav__link" data-scroll="#download">СКАЧАТЬ</a>
+               </nav>
+               <button class="burger" type="button" id="navToogle">
+                  <span class="burger__item"></span>
+               </button>
+            </div>
+         </div>
+      </header>
+
+
+      <!-- Intro -->
+      <div class="intro" id="intro">
+            <div class="container">
+               <div class="intro_inner">
+                  <h1 class="into__title">ВАШ ШАБЛОН СТРАНИЦЫ</h1>
+                     <h2 class="into__suptitle">
+                           Таким образом сложившаяся структура организации в значительной степени обуславливает создание модели развития. 
+                     </h2>
+                     <a class="btn btn--red" href="#">узнать больше</a>
+                  </div>
+
+            </div>
+      </div>
+
+   <!-- Feauter -->
+
+   <div class="container" >
+      <div class="feature" id="feature">
+         <div class="feature__item">
+            <img src="img/feature/feature-1.png" alt="" class="feature__img">
+            <h4 class="feature__title">Легко управляемый</h4>
+            <div class="feature__text">Разнообразный и богатый опыт новая модель организационной деятельности влечет за собой процесс внедрения и модернизации модели развития.</div>
+         </div>
+      <div class="feature__item">
+            <img src="img/feature/feature-2.png" alt="" class="feature__img">
+            <h4 class="feature__title">Адаптивный</h4>
+            <div class="feature__text">Разнообразный и богатый опыт новая модель организационной деятельности влечет за собой процесс внедрения и модернизации модели развития.</div>
+            </div>
+      <div class="feature__item">
+            <img src="img/feature/feature-3.png" alt="" class="feature__img">
+            <h4 class="feature__title">СОВРЕМЕННЫЙ ДИЗАЙН</h4>
+            <div class="feature__text">Разнообразный и богатый опыт новая модель организационной деятельности влечет за собой процесс внедрения и модернизации модели развития.</div>
+         </div>
+      <div class="feature__item">
+            <img src="img/feature/feature-4.png" alt="" class="feature__img">
+            <h4 class="feature__title">Чистый код</h4>
+            <div class="feature__text">Разнообразный и богатый опыт новая модель организационной деятельности влечет за собой процесс внедрения и модернизации модели развития.</div>
+         </div>
+      <div class="feature__item">
+            <img src="img/feature/feature-5.png" alt="" class="feature__img">
+            <h4 class="feature__title">Готов к отправке</h4>
+            <div class="feature__text">Разнообразный и богатый опыт новая модель организационной деятельности влечет за собой процесс внедрения и модернизации модели развития.</div>
+         </div>
+      <div class="feature__item">
+            <img src="img/feature/feature-6.png" alt="" class="feature__img">
+            <h4 class="feature__title">Свободный для скачивания</h4>
+            <div class="feature__text">Разнообразный и богатый опыт новая модель организационной деятельности влечет за собой процесс внедрения и модернизации модели развития.</div>
+         </div>
+      </div> <!-- feature -->
+   </div> <!-- container -->
+
+<!-- works -->
+<div class="works" id="works">
+   <div class="works__item">
+      <img class="works__img" src="img/work/work_1.png" alt="">
+      <div class="works__content">
+            <div class="works__title">НАЗВАНИЕ ПРОЕКТА</div>
+            <div class="works__text">Дизайн пользовательского интерфейса</div>
+       </div>
+   </div>
+   <div class="works__item">
+      <img class="works__img" src="img/work/work_2.png" alt="">
+      <div class="works__content">
+            <div class="works__title">НАЗВАНИЕ ПРОЕКТА</div>
+            <div class="works__text">Дизайн пользовательского интерфейса</div>
+         </div>
+   </div>
+   <div class="works__item">
+      <img class="works__img" src="img/work/work_3.png" alt="">
+      <div class="works__content">
+            <div class="works__title">НАЗВАНИЕ ПРОЕКТА</div>
+            <div class="works__text">Дизайн пользовательского интерфейса</div>
+         </div>
+   </div>
+   <div class="works__item">
+      <img class="works__img" src="img/work/work_4.png" alt="">
+      <div class="works__content">
+            <div class="works__title">НАЗВАНИЕ ПРОЕКТА</div>
+            <div class="works__text">Дизайн пользовательского интерфейса</div>
+         </div>
+   </div>
+   <div class="works__item">
+      <img class="works__img" src="img/work/work_5.png" alt="">
+      <div class="works__content">
+            <div class="works__title">НАЗВАНИЕ ПРОЕКТА</div>
+            <div class="works__text">Дизайн пользовательского интерфейса</div>
+         </div>
+   </div>
+   <div class="works__item">
+      <img class="works__img" src="img/work/work_6.png" alt="">
+      <div class="works__content">
+            <div class="works__title">НАЗВАНИЕ ПРОЕКТА</div>
+            <div class="works__text">Дизайн пользовательского интерфейса</div>
+         </div>
+   </div>
+   <div class="works__item">
+      <img class="works__img" src="img/work/work_7.png" alt="">
+      <div class="works__content">
+            <div class="works__title">НАЗВАНИЕ ПРОЕКТА</div>
+            <div class="works__text">Дизайн пользовательского интерфейса</div>
+         </div>
+   </div>
+   <div class="works__item">
+      <img class="works__img" src="img/work/work_8.png" alt="">
+      <div class="works__content">
+            <div class="works__title">НАЗВАНИЕ ПРОЕКТА</div>
+            <div class="works__text">Дизайн пользовательского интерфейса</div>
+         </div>
+   </div>
+</div><!-- works -->
+
+
+<!-- Team -->
+<div class="team" id="team">
+   <div class="container">
+      <div class="team__inner">
+         <div class="team__item">
+            <img class="team__photo" src="img/team/team_1.png" alt="">
+            <div class="team__name">Гайчук Марта</div>
+            <div class="team__prof">Основатель, генеральный директор</div>
+            <div class="team__text">
+                  <p>
+                        Таким образом реализация намеченных плановых заданий позволяет оценить значение направлений прогрессивного развития. 
+                 </p>
+                  <p>
+                        Задача организации, в особенности же консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития.
+                  </p>
+               </div>
+               <div class="social">
+                     <a class="social__item" target="_blank" href="https://uk-ua.facebook.com/">
+                        <svg class="social__icon">
+                           <use xlink:href="#facebook"></use>
+                        </svg>
+                     </a>
+                     <a class="social__item" target="_blank" href="https://twitter.com/?lang=ru">
+                           <svg class="social__icon">
+                              <use xlink:href="#twitter"></use>
+                           </svg>
+                        </a>
+                        <a class="social__item" target="_blank" href="https://www.linkedin.com/">
+                              <svg class="social__icon">
+                                 <use xlink:href="#linkedin"></use>
+                              </svg>
+                           </a>
+                  </div>
+         </div>
+         <div class="team__item">
+               <img class="team__photo" src="img/team/team_2.png" alt="">
+               <div class="team__name">Сыпченко Лаврентий</div>
+               <div class="team__prof">Соучредитель, разработчик</div>
+               <div class="team__text">
+                  <p>
+                        Таким образом реализация намеченных плановых заданий позволяет оценить значение направлений прогрессивного развития. 
+                 </p>
+                  <p>
+                        Задача организации, в особенности же консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития.
+                  </p>
+               </div>
+               <div class="social">
+                     <a class="social__item" target="_blank" href="https://uk-ua.facebook.com/">
+                        <svg class="social__icon">
+                           <use xlink:href="#facebook"></use>
+                        </svg>
+                     </a>
+                     <a class="social__item" target="_blank" href="https://twitter.com/?lang=ru">
+                           <svg class="social__icon">
+                              <use xlink:href="#twitter"></use>
+                           </svg>
+                        </a>
+                        <a class="social__item" target="_blank" href="https://www.linkedin.com/">
+                              <svg class="social__icon">
+                                 <use xlink:href="#linkedin"></use>
+                              </svg>
+                           </a>
+                  </div>
+            </div>
+            <div class="team__item">
+                  <img class="team__photo" src="img/team/team_3.png" alt="">
+                  <div class="team__name">Князева Ульяна</div>
+                  <div class="team__prof">Дизайнер</div>
+                  <div class="team__text">
+                        <p>
+                              Таким образом реализация намеченных плановых заданий позволяет оценить значение направлений прогрессивного развития. 
+                       </p>
+                        <p>
+                              Задача организации, в особенности же консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития.
+                        </p>
+                     </div>
+                     <div class="social">
+                           <a class="social__item" target="_blank" href="https://uk-ua.facebook.com/">
+                              <svg class="social__icon">
+                                 <use xlink:href="#facebook"></use>
+                              </svg>
+                           </a>
+                           <a class="social__item" target="_blank" href="https://twitter.com/?lang=ru">
+                                 <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                 </svg>
+                              </a>
+                              <a class="social__item" target="_blank" href="https://www.linkedin.com/">
+                                    <svg class="social__icon">
+                                       <use xlink:href="#linkedin"></use>
+                                    </svg>
+                                 </a>
+                        </div>
+               </div>
+               <div class="team__item">
+                     <img class="team__photo" src="img/team/team_4.png" alt="">
+                     <div class="team__name">Петрова Зинаида</div>
+                     <div class="team__prof">Администратор</div>
+                     <div class="team__text">
+                           <p>
+                                 Таким образом реализация намеченных плановых заданий позволяет оценить значение направлений прогрессивного развития. 
+                          </p>
+                           <p>
+                                 Задача организации, в особенности же консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании модели развития.
+                           </p>
+                        </div>
+                     <div class="social">
+                           <a class="social__item" target="_blank" href="https://uk-ua.facebook.com/">
+                              <svg class="social__icon">
+                                 <use xlink:href="#facebook"></use>
+                              </svg>
+                           </a>
+                           <a class="social__item" target="_blank" href="https://twitter.com/?lang=ru">
+                                 <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                 </svg>
+                              </a>
+                              <a class="social__item" target="_blank" href="https://www.linkedin.com/">
+                                    <svg class="social__icon">
+                                       <use xlink:href="#linkedin"></use>
+                                    </svg>
+                                 </a>
+                        </div>
+                  </div>
+      </div><!-- team__inner -->
+   </div>
+</div><!-- team -->
+
+<!-- Reviews -->
+<div class="reviews" id="reviews">
+   <div class="container">
+      <div  class="reviewsSlider" id="reviewsSlider">
+    <div>
+       <div class="reviews__item">
+          <div class="reviews__photo">
+            <img class="reviews__img" src="img/Reviews/Reviews.png" alt="">
+          </div>
+          <div class="reviews__content">
+            <div class="reviews__text">
+                  “Разнообразный и богатый опыт новая модель организационной деятельности требуют от нас анализа соответствующий условий активизации...”
+            </div>
+               <div class="reviews__author"><p> Острожска Флорентина,</p>
+                  <p>дизайнер</p>
+               </div>
+          </div>
+       </div>
+      </div>
+
+      <div>
+       <div class="reviews__item">
+            <div class="reviews__photo">
+              <img class="reviews__img" src="img/Reviews/photo-1519125323398-675f0ddb6308.jpg" alt="">
+            </div>
+            <div class="reviews__content">
+              <div class="reviews__text">
+                  “Равным образом укрепление и развитие структуры позволяет оценить значение форм развития.”
+              </div>
+               <div class="reviews__author"> <p>Сафонов Огюст,</p> <p>помощник генерального директора</p>
+               </div>
+            </div>
+         </div>
+      </div>
+     </div>
+   </div>
+</div><!-- reviews -->
+
+
+<!-- Download -->
+<div class="download" id="download">
+   <div class="container">
+      <h3 class="download__title">Вы готовы начать? Скачай бесплатно!</h3>
+      <div class="download__suptitle">Идейные соображения высшего порядка
+      </div>
+    </div>
+    <a href="#" class="btn btn--red btn--long">Скачать здесь</a>
+</div><!-- download -->
+
+
+<footer class="footer">
+   <div class="container">
+      <div class="footer__inner">
+         <div class="footer__block">
+            <h4 class="footer__title">Локация</h4>
+            <address class="footer__adress"><div>347012, г. Кунгур,</div>
+            <div> ул. Костякова, дом 3, квартира 64</div>
+             </address>
+         </div>
+         <div class="footer__block">
+            <h4 class="footer__title">Поделись  любовью</h4>
+            <div class="social social--footer">
+               <a class="social__item" target="_blank" href="https://uk-ua.facebook.com/">
+                  <svg class="social__icon">
+                     <use xlink:href="#facebook"></use>
+                  </svg>
+               </a>
+               <a class="social__item" target="_blank" href="https://twitter.com/?lang=ru">
+                     <svg class="social__icon">
+                        <use xlink:href="#twitter"></use>
+                     </svg>
+                  </a>
+                  <a class="social__item" target="_blank"  href="https://www.linkedin.com/">
+                        <svg class="social__icon">
+                           <use xlink:href="#linkedin"></use>
+                        </svg>
+                     </a>
+            </div>
+         </div>
+         <div class="footer__block">
+            <h4 class="footer__title">О Твоём Шаблоне</h4>
+            <div class="footer__text"><div>Явным образом дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание систем массового участия.</div>
+         </div>
+         </div>
+      </div><!-- footer__inner -->
+   </div>
+
+   <div class="copyright">
+      <div class="container">
+         <div class="copyright__text">
+              <div>©2019. Все права защищены.</div>
+             <div>Сделано с помощью  &hearts;  <a class="copyright__author" href="https://www.instagram.com/?hl=ru" target="_blank">Харченка Антона</a>  </div>
+         </div>
+   </div>
+</div><!-- copyright -->
+</footer><!-- footer -->
+
+<!-- JavaScript -->
+<script src="app.js"></script>
+
+<!-- Slider -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+   </body>
+</html>

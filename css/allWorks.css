@@ -1,0 +1,18 @@
+body{
+ background: black;
+}
+
+ul{
+
+ list-style:none;
+ display: flex;
+}
+
+ul li{
+ margin-left: 15px;
+}
+ul li a{
+ text-decoration: none;
+ color: white;
+ font-size: 24px;
+}

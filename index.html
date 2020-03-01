@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anton Kharchenko</title>
+    <link rel="shortcut icon" href="img/tittleLogo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="user">
+                    <div class="user__avatar">
+                        <img src="img/logo.png" alt="user__avatar">
+                    </div>
+                    <div class="user__content">
+                        <div class="user__name">Антон
+                            <br>
+                            Харченко</div>
+                        <div class="user__prof">Веб дизайнер &amp;
+                            Фрилансер</div>
+                    </div>
+                </div>
+
+                <div class="nav" id="nav">
+                    <a href="#work" class="nav__link">Работы</a>
+                    <a href="#aboutMe" class="nav__link">Про меня</a>
+                    <a href="#blog" class="nav__link">Блог</a>
+                    <a href="#contact" class="nav__link">Контакты</a>
+                    <a href="" class="nav__link nav__link--btn" data-modal="#modal__hireMe">Найми меня</a>
+                </div>
+
+                <button class="burger" type="button" id="navToggle">
+                    <img class="burger__icon" src="img/burger.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!--Intro-->
+    <section class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__content">
+                    <h2 class="intro__subtitle">Привет, я</h2>
+                    <h1 class="intro__title">Харченко Антон</h1>
+                    <div class="intro__text">Веб Дизайнер &amp;
+                        Фрилансер</div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/anton-kharchenko-898870195/" class="social__link"><img
+                                src="img/in.svg" alt=""></a>
+                        <a href="https://www.facebook.com/profile.php?id=100018963728346&ref=bookmarks"
+                            class="social__link"><img src="img/facebook.svg" alt=""></a>
+                        <a href="https://www.instagram.com/anton_khar4enko/?hl=ru" class="social__link"><img
+                                src="img/instagram.svg" alt=""></a>
+                    </div>
+                    <a class="btn" href="#" data-modal="#modal__hireMe">Свяжись со мной</a>
+                    <button class="btn" type="button" data-modal="#modal__resume">Моё резюме</button>
+
+                </div>
+                <img src="img/images/myWorkPhoto.png" alt="" class="intro__photo">
+
+
+
+            </div>
+            <!--intro__inner-->
+        </div>
+        <!--container-->
+    </section> <!-- intro-->
+
+    <!--Works-->
+    <div class="works" id="work">
+        <div class="container">
+            <div class="works__nav">
+                <a href="#" class="works__nav-link" data-filter="all">Все</a>
+                <a href="#" class="works__nav-link" data-filter="app">Одностраничые</a>
+                <a href="#" class="works__nav-link" data-filter="website">Вебсайты</a>
+            </div>
+
+            <div class="portfolio">
+                <div class="portfolio__col" data-cat="app">
+                    <div class="work">
+                        <img class="work__image" src="img/screen-1.png" alt="">
+                        <a href="work/ActiveBox/index.html" class="demo" target="_blank">Перейти на сайт</a>
+                        <div class="work__content">
+                            <div class="work__cat">Одностраничник</div>
+                            <div class="work__title">Active Box
+                                <time class="work__date">2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__col" data-cat="app">
+                    <div class="work">
+                        <img class="work__image" src="img/screen-2.png" alt="">
+                        <a href="work/Mogo/assets/index.html" class="demo" target="_blank">Перейти на сайт</a>
+                        <div class="work__content">
+                            <div class="work__cat">Одностраничник</div>
+                            <div class="work__title">Mogo
+                                <time class="work__date">2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- portfolio-->
+
+            <div class="btn__center">
+                <a class="btn btn--sm" href="allWorks.html" target="_blank">Больше работ</a>
+            </div>
+
+
+        </div> <!-- container-->
+    </div> <!-- works-->
+
+    <section class="about" id="aboutMe">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__photo">
+                    <img src="img/photo__china.png" alt="">
+                </div>
+                <div class="about__content">
+                    <h3 class="abbout__title">Про меня</h3>
+                    <h2 class="abbout__bigtitle">Кто я</h2>
+                    <div class="about__text">
+                        <p>Разрабатывал проекты на языке C#, ASP.NET MVC в рамках курсовых проектов в университете. На
+                            данный момент в проектах использую jQuery, Gulp4, Less.</p>
+                        <p>Я — веб-дизайнер, frontend-разработчик.
+                            Участвую в развитии перспективных стартапов в области высоких технологий/искусства (да-да,
+                            немного парадоксальное сочетание).
+                            В последние годы активно занимаюсь саморазвитием и личностным ростом.</p>
+                        <p>Я - стрессоустойчивый и коммуникабельный. Мои сильные стороны — вежливость и сохранение
+                            спокойствия в любой конфликтной ситуаци , ответственность, умение работать в команде,
+                            позитивный настрой и быстрая обучаемость.</p>
+                        <p>Моё хобби - танцы. Работал в Китае, город Шанхай. Находился во многих колективах и старался
+                            оставлять о себе только хорошее воспоминания.</p>
+
+                    </div>
+                    <a class="btn" href="#" data-modal="#modal__hireMe">Свяжись со мной</a>
+                    <button class="btn" type="button" data-modal="#modal__resume">Моё Резюме</button>
+                </div>
+            </div><!-- about__inner-->
+        </div> <!-- container-->
+    </section><!-- about-->
+
+    <!--Reviews-->
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews__item">
+                <div class="reviews__text">
+                    Отличная работа! Сделал все в 2 раза быстрее поставленного срока) Быстро отвечает, учитывает все
+                    пожелания) Работой довольна.
+                </div>
+                <div class="reviews__author">
+                    <img class="reviews__photo" src="img/Untitled-1.png" alt="">
+                    <div class="reviews__name">Елена Билык</div>
+                    <div class="reviews__company">Заказчик</div>
+                    <div class="reviews__rating">
+                        <img class="reviews__star" src="img/star-half-empty.svg" alt="">
+                        <img class="reviews__star" src="img/star-half-empty.svg" alt="">
+                        <img class="reviews__star" src="img/star-half-empty.svg" alt="">
+                        <img class="reviews__star" src="img/star-half-empty.svg" alt="">
+                        <img class="reviews__star  reviews__star--unactive" src="img/star-half-empty.svg" alt="">
+                    </div>
+                </div>
+            </div><!-- reviews__item-->
+
+        </div><!-- container-->
+    </div><!-- reviews-->
+
+    <!--News-->
+    <section class="news" id="blog">
+        <div class="container">
+            <div class="news__header">
+                <h3 class="news__title">Блог</h3>
+                <div class="news__text">Выкладываю интресные статьи</div>
+            </div>
+            <div class="articles">
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date">10 <br>октября</time>
+                            <a href="">
+                                <img src="img/shenzhen.png" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+                            <a href="https://dou.ua/?utm_source=transactional&utm_medium=email&utm_campaign=other"
+                                class="articles__title">
+                                <h4>Кремнієва долина Китаю. Як програмісту живеться у Шеньчжені</h4>
+                            </a>
+                            <div class="articles__cat">Истории</div>
+                            <div class="articles__text">Шеньчжень — це така собі «кремнієва долина» Китаю, але більше
+                                спрямована на «залізо». Тут найбільший ринок електроніки, компонентів до неї, мобільних
+                                телефонів. Багато стартапів, банківських проектів, сервісів, робототехніки. Один із
+                                прикладів, який втілювали мої знайомі програмісти: в більшості гонконгських готелів
+                                існує сервіс оренди телефонів для туристів, які не мають місцевого мобільного зв’язку.
+                            </div>
+                        </div>
+                        <a href="https://dou.ua/?utm_source=transactional&utm_medium=email&utm_campaign=other" class="btn btn--sm">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date">15 <br>октября</time>
+                            <a href="">
+                                <img src="img/junior.png" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+                            <a href="https://dou.ua/lenta/digests/junior-digest-46/?from=fp_top1m"
+                                class="articles__title">
+                                <h4>Junior дайджест: курси, стажування, вакансії.</h4>
+                            </a>
+                            <div class="articles__cat">Поиск вакансий</div>
+                            <div class="articles__text">До вашої уваги дайджест навчальних програм для тих, хто починає
+                                свою кар’єру в ІТ. У цьому номері зібрані можливості, актуальні у жовтні 2019. Усі
+                                програми безкоштовні.</div>
+                        </div>
+                        <a href="https://dou.ua/lenta/digests/junior-digest-46/?from=fp_top1m" class="btn btn--sm">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date">20 <br>октября</time>
+                            <a href="">
+                                <img src="img/english.png" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+                            <a href="https://dou.ua/lenta/articles/learning-languages-for-real-purpose/?from=fp_top1m"
+                                class="articles__title">
+                                <h4>Как учить иностранный язык так, чтобы заговорить на нем</h4>
+                            </a>
+                            <div class="articles__cat">Языки </div>
+                            <div class="articles__text">Основная задача языка — коммуникация, и решать прежде всего
+                                необходимо проблему коммуникации. Иностранный язык — не цель, и им надо овладеть ровно
+                                настолько, чтобы покрыть ваши нужды в общении. Учить язык в отрыве от прикладной
+                                коммуникации непрактично.
+
+                                Для начала общения нужен маленький словарный запас. Он будет естественно пополняться
+                                реально необходимыми словами в процессе самого общения.</div>
+                        </div>
+                        <a href="https://dou.ua/lenta/articles/learning-languages-for-real-purpose/?from=fp_top1m" class="btn btn--sm">Узнать больше</a>
+                    </div>
+                </div>
+            </div><!-- articles-->
+            <div class="news__footer">
+                <a href="blog.html" class="news__link">Больше постов</a>
+            </div>
+        </div>
+    </section><!-- news-->
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__credits">
+                    <div class="footer__copyright"> &copy;2019</div>
+                    <div class="footer__social">
+                        <a href="https://www.linkedin.com/in/anton-kharchenko-898870195/" target="_blank" class="">
+                            <img src="img/linkedin-logo.svg" width="18" alt="">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100018963728346&ref=bookmarks" target="_blank"
+                            class="">
+                            <img src="img/facebook-logo.svg" height="18" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/anton_khar4enko/?hl=ru" target="_blank" class="">
+                            <img src="img/instagram-logo.svg" width="18" alt="">
+                        </a>
+                    </div>
+                </div>
+                <nav class="footer__nav">
+                    <a href="#work" class="footer__nav--link">Работы</a>
+                    <a href="#aboutMe" class="footer__nav--link">Про меня</a>
+                    <a href="#blog" class="footer__nav--link">Блог</a>
+                    <a href="#contact" class="footer__nav--link">Контакты</a>
+                    <a href="" class="footer__nav--link footer__nav--link--btn" data-modal="#modal__hireMe">Найми
+                        меня</a>
+                </nav>
+            </div><!-- footer__inner-->
+        </div><!-- container-->
+    </footer><!-- footer-->
+
+
+    <!--Modals-->
+    <!--First modal-->
+    <div class="modal" id="modal__resume">
+        <div class="modal__dialog">
+            <button type="button" class="modal__close" data-close>
+                <img src="img/button.png" alt="">
+            </button>
+            <div class="modal__content">
+                <h3 class="modal__title text__center">Резюме</h3>
+
+                <div class="btn__center">
+                    <a href="" class="btn btn--thin">Загрузить PDF</a>
+                    <a href="" class="btn btn--thin">Печатать</a>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline__col  timeline__col--left">
+                        <h4 class="timeline__title">Опыт</h4>
+
+                        <div class="timeline__item">
+                            <div class="timeline__date">В нынешнее время</div>
+                            <h5 class="timeline__subtitle">Жду вашего предложения</h5>
+                            <div class="timeline__position">В поиске работы в офисе</div>
+                            <div class="timeline__text">
+                                <p>Желаю развиваться как программист. Ищу работу на постоянной основе.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__item">
+                            <div class="timeline__date">октябрь 2019</div>
+                            <h5 class="timeline__subtitle">Фрилансер</h5>
+                            <div class="timeline__position">Веб дизайн</div>
+                            <div class="timeline__text">
+                                <p>Разрабатывал сайты на заказ.
+                                    Выполнял курсовые проекты, в рамках обучения, в институте.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="timeline__date">июнь 2019</div>
+                            <h5 class="timeline__subtitle">Web-программист </h5>
+                            <div class="timeline__position">Junior</div>
+                            <div class="timeline__text">
+                                <p>
+                                    HTML5 (1 год опыта),
+                                    CSS3 (1 год опыта),
+                                    JS (1 год опыта),
+                                    JQuery (1 год опыта),
+                                    Gulp (1 год опыта),
+                                    Less (1 года опыта).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--timeline__col--left-->
+
+                    <div class="timeline__col timeline__col--right">
+                        <h4 class="timeline__title ">Образование</h4>
+
+
+                        <div class="timeline__item">
+                            <div class="timeline__date"> 2018 - 2020</div>
+                            <h5 class="timeline__subtitle">Магистр</h5>
+                            <div class="timeline__position">Криворожский Экономический Институт
+                                Инженерия программного обеспечения, Кривой Рог
+                                Неоконченное высшее, с 09.2018 по 06.2020 (1 год 9 месяцев)</div>
+
+                        </div>
+
+                        <div class="timeline__item">
+                            <div class="timeline__date"> 2014 - 2018</div>
+                            <h5 class="timeline__subtitle">Бакалавр</h5>
+                            <div class="timeline__position">Криворожский Национальный Университет
+                                Электротехнический факультет, специальность теплоэнергетика, Кривой Рог
+                                Высшее, с 09.2014 по 06.2018 (3 года 9 месяцев)</div>
+                        </div>
+
+                        <div class="timeline__item">
+                            <div class="timeline__date"> 2003 - 2014</div>
+                            <h5 class="timeline__subtitle">Школьник</h5>
+                            <div class="timeline__position">Криворожская  Школа №97</div>
+                        </div>
+
+                        <h4 class="timeline__title">Умения</h4>
+                        <div class="progress-bar">
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">
+                                        JS/jQuery
+                                    </div>
+                                </div>
+
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 80%">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--progress-bar__item-->
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">
+                                        Вёрстка
+                                    </div>
+                                </div>
+
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 75%">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--progress-bar__item-->
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">
+                                        Photoshop
+                                    </div>
+                                </div>
+
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 80%">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--progress-bar__item-->
+                            <div class="progress-bar__item">
+                                <div class="progress-bar__left">
+                                    <div class="progress-bar__title">
+                                        Adobe XD
+                                    </div>
+                                </div>
+
+                                <div class="progress-bar__right">
+                                    <div class="progress-bar__bar">
+                                        <div class="progress-bar__progress" style="width: 90%">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--progress-bar__item-->
+                        </div>
+                        <!--progress-bar-->
+                    </div>
+                    <!--timeline__col--right-->
+                </div>
+                <!--timeline-->
+
+                <div class="btn__center">
+                    <a href="" class="btn" data-modal="#modal__hireMe">Свяжись со мной</a>
+                </div>
+            </div>
+            <!--modal__content-->
+        </div>
+        <!--modal__dialog-->
+    </div>
+    <!--modal-->
+
+    <!-- Second modal-->
+    <div class="modal" id="modal__hireMe">
+        <div class="modal__dialog">
+
+            <button class="modal__close" type="button" data-close>
+                <img src="img/button.png" alt="">
+            </button>
+            <div class="contact">
+                <div class="contact__left">
+                    <h3 class="modal__title">ДАВАЙ ПОГОВОРИМ!</h3>
+                    <div class="modal__suptitle">
+                        Позвони мне или свяжись со мной
+                    </div>
+
+                    <ul class="contact__info">
+                        <li class="contact__info-item"> <img class="contact__info-icon" src="img/phone.svg" alt="">
+                            +380965471487</li>
+                        <li class="contact__info-item"> <img class="contact__info-icon" src="img/message.svg" alt="">
+                            gumb1t97@gmail.com</li>
+                    </ul>
+
+                    <form action="/" method="POST" class="form">
+                        <div class="form__group ">
+                            <label for="" class="form__label">Твой e-mail</label>
+                            <input type="text" class="form__input" name="input-email" id="input-email"
+                                placeholder="Адрес электронной почты">
+                        </div>
+                        <div class="form__group ">
+                            <label for="input-text" class="form__label">Сообщение</label>
+                            <textarea name="" id="input-text" class="form__textarea"
+                                placeholder="Введите ваш запрос ..."></textarea>
+                        </div>
+                        <div class="text-right">
+                            <button type="submit" class="btn">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--contact-->
+        </div>
+        <!--modal__dialog-->
+    </div>
+
+    <!-- JS -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
